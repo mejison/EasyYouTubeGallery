@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col-12">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>{{ playlist.playlist.name }}</h2>
+                <p>{{ playlist.playlist.desc }}</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <button class="btn btn-default" ng-click="playlist.addPlayItem()">Add</button>
+            </div>
+        </div>
+        
+
+        
+    </div>
+
+    <div class="col-12">
+        <div class="card" ng-repeat="v in playlist.playlist.playlist | reverse">
+            <h3>{{ v.name }}</h3>
+            <object width="100%" height="500"
+                data="{{ v.link }}">
+            </object>
+        </div>
+    </div>
+</div>
+
+<script type="text/ng-template" id="modalAddPlayItem.html">
+    <div class="modal-header">
+        <h3 class="modal-title" >Add Item Play List</h3>
+    </div>
+    <div class="modal-body">
+        <div>
+            <form class="clearfix">
+                <div class="form-group">
+                <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" ng-model="data.name" autofocus placeholder="Name" />
+                </div>
+                <div class="form-group">
+                    <label for="url">Url</label>
+                    <input type="text" class="form-control" id="url" ng-model="data.link" placeholder="Url">
+                </div>
+                <button type="button" ng-click="submitItemPlayList()" class="btn btn-default pull-right">Add</button>
+            </form>
+        </div>
+    </div>
+</script>

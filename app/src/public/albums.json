@@ -1,0 +1,116 @@
+[
+    {
+        "name" : "Albums 1",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "alias" : "alb_1",
+        "playlist" : [
+            {
+                "name" : "Item #1",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #2",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #3",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            }
+        ]
+    },
+    {
+        "name" : "Albums 2",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "alias" : "alb_2",
+        "playlist" : [
+            {
+                "name" : "Item #1",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #2",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #3",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            }
+        ]
+    },
+    {
+        "name" : "Albums 3",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "alias" : "alb_3",
+        "playlist" : [
+            {
+                "name" : "Item #1",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #2",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #3",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            }
+        ]
+    },
+    {
+        "name" : "Albums 4",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "alias" : "alb_4",
+        "playlist" : [
+            {
+                "name" : "Item #1",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #2",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #3",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            }
+        ]
+    },
+    {
+        "name" : "Albums 5",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "alias" : "alb_5",
+        "playlist" : [
+            {
+                "name" : "Item #1",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #2",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            },
+            {
+                "name" : "Item #3",
+                "link" : "https://www.youtube.com/embed/XGSy3_Czz8k"
+            }
+        ]
+    },
+    {
+        "name" : "Albums 6",
+        "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "alias" : "alb_6",
+        "playlist" : [
+            {
+                "name" : "One #1",
+                "link" : "https://youtu.be/esWaWgN7Pyw"
+            },
+            {
+                "name" : "One #2",
+                "link" : "https://youtu.be/esWaWgN7Pyw"
+            },
+            {
+                "name" : "One #3",
+                "link" : "https://youtu.be/esWaWgN7Pyw"
+            }
+        ]
+    }
+]

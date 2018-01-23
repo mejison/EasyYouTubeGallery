@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-md-4" ng-repeat="i in albums.list">
+        <div class="card" >
+            <img src="http://placehold.it/280?text={{ i.name }}" alt="Thumbnail [100%x280]" style="height: 280px; width: 100%; display: block;">
+            <p class="card-text">{{ i.desc }}</p>
+            <p>
+                <a class="btn btn-default" href="/albums/{{ i.alias }}" role="button">View details »</a>
+            </p>
+        </div>
+    </div>
+</div>
